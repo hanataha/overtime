@@ -1,6 +1,5 @@
 /* Official overtime records for 2026.
- * Edit this file to change the base days. Days added in the browser
- * are stored separately in localStorage and are not written here.
+ * Edit this file to change the base days and work-time rules.
  */
 window.OVERTIME_DATA = {
   year: 2026,
@@ -19,8 +18,6 @@ window.OVERTIME_DATA = {
       start: "charei",
       end: "20:30",
       holiday: false,
-      writtenMinutes: null,
-      writtenLabel: null,
     },
     {
       id: "2026-10-24",
@@ -29,8 +26,6 @@ window.OVERTIME_DATA = {
       start: "07:30",
       end: "21:00",
       holiday: false,
-      writtenMinutes: 12 * 60 + 30,
-      writtenLabel: "12.30",
     },
     {
       id: "2026-10-30",
@@ -39,8 +34,6 @@ window.OVERTIME_DATA = {
       start: "06:30",
       end: "20:30",
       holiday: false,
-      writtenMinutes: null,
-      writtenLabel: null,
     },
     {
       id: "2026-11-04",
@@ -49,8 +42,6 @@ window.OVERTIME_DATA = {
       start: "06:30",
       end: "18:30",
       holiday: false,
-      writtenMinutes: 3 * 60,
-      writtenLabel: "3時間",
     },
     {
       id: "2026-11-12",
@@ -59,8 +50,6 @@ window.OVERTIME_DATA = {
       start: "charei",
       end: "18:00",
       holiday: false,
-      writtenMinutes: null,
-      writtenLabel: null,
     },
     {
       id: "2026-11-14",
@@ -69,8 +58,6 @@ window.OVERTIME_DATA = {
       start: "07:00",
       end: "18:00",
       holiday: false,
-      writtenMinutes: 9 * 60,
-      writtenLabel: "9時間",
     },
   ],
 };
