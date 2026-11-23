@@ -7,8 +7,7 @@ Live page: https://hanataha.github.io/overtime/
 ## What it shows
 
 - Official overtime days for October and November 2026
-- Calculated overtime for each day, with a breakdown
-- Month totals, the rules, and how to export Google Maps Timeline as proof
+- Calculated overtime for each day, with a breakdown and month totals
 
 The language toggle (日本語 / English) defaults to Japanese.
 

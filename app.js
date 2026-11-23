@@ -13,8 +13,6 @@
       summary: "2026年10月と11月の残業です。各日の計算した残業時間を載せています。",
       totals: "合計",
       days: "日ごとの記録",
-      rules: "ルール",
-      proof: "証明",
       metricGrand: "合計",
       metricOct: "10月",
       metricNov: "11月",
@@ -25,8 +23,6 @@
       viewList: "一覧",
       viewBreak: "内訳",
       totalRow: "合計",
-      assumeLead: "仮定",
-      assume: "朝礼の開始は7:40として計算しています。17時以降の休憩はない、と仮定しています。変えたいときは data.js を直すか、教えてください。",
       early: "早出",
       late: "終了後",
       shift: "勤務",
@@ -35,41 +31,6 @@
       weekday: "平日",
       fullDay: "休日の全日",
       charei: "朝礼（7:40）",
-      rulesItems: [
-        "普通の勤務は月曜から金曜、7:40から17:00です。",
-        "休憩は10:00–10:30、12:00–13:00、15:00–15:30です。",
-        "平日の残業は、7:40より前と、17:00より後の時間です。",
-        "土曜・日曜・祝日は、その日の勤務が全部残業です。ただし、上の休憩が勤務の中にあれば、その分を引きます。",
-        "17時以降には休憩はない、と仮定しています。",
-        "「朝礼」の開始は、普通の開始と同じ7:40としています。朝の残業はなしです。この仮定は変えられます。",
-        "年は2026年です。曜日はカレンダーで確認しました。",
-      ],
-      proofIntro: "ここからGoogleマップのタイムラインを開くことはできません。Googleはいま、タイムラインをスマホの中に保存しています。下の手順で書き出してください。ファイルか、各日のスクリーンショットがあれば、この報告の各日に付けられます。",
-      android: "Android",
-      androidSteps: [
-        { title: "設定アプリを開く", detail: "Googleマップではなく、フォンの設定です。" },
-        { title: "位置情報 → 位置情報サービス → タイムライン", detail: "Location → Location services → Timeline" },
-        { title: "「タイムラインデータをエクスポート」をタップ" },
-        { title: "続行して、保存する場所を選ぶ", detail: "保存が終わると、「Export complete」と出ます。" },
-      ],
-      androidFile: "ファイルの名前は、ふつう Timeline.json です。",
-      ios: "iPhone",
-      iosSteps: [
-        { title: "Google マップを開く" },
-        { title: "プロフィール写真 → 設定 → 位置情報とプライバシー" },
-        { title: "「タイムラインデータをエクスポート」をタップ" },
-        { title: "「ファイルに保存」を選び、場所を選んで保存" },
-      ],
-      iosFile: "ファイルの名前は location-history.json です。別の行き方は、プロフィール → タイムライン → ⋮ → 位置情報とプライバシー設定 → エクスポート、です。",
-      shots: "スクリーンショット",
-      shotsSteps: [
-        { title: "Google マップを開く" },
-        { title: "プロフィール写真 → タイムライン" },
-        { title: "上の日付をタップし、カレンダーからその日を選ぶ" },
-        { title: "スクリーンショットを撮る", detail: "残業の日は、それぞれ撮ってください。" },
-      ],
-      linkAndroid: "Androidの公式ガイド",
-      linkIos: "iPhoneの公式ガイド",
       foot: "公式の記録は data.js にあります。",
     },
     en: {
@@ -78,8 +39,6 @@
       summary: "Overtime days in October and November 2026, with the calculated hours for each day.",
       totals: "Totals",
       days: "Each day",
-      rules: "Rules",
-      proof: "Proof",
       metricGrand: "Total",
       metricOct: "October",
       metricNov: "November",
@@ -90,8 +49,6 @@
       viewList: "List",
       viewBreak: "Breakdown",
       totalRow: "Total",
-      assumeLead: "Assumptions",
-      assume: "Morning assembly is treated as a 7:40 start. No break is assumed after 17:00. Change data.js, or tell me, if you want either of these changed.",
       early: "Early",
       late: "Late",
       shift: "Shift",
@@ -100,41 +57,6 @@
       weekday: "Weekday",
       fullDay: "Full-day overtime",
       charei: "Assembly (7:40)",
-      rulesItems: [
-        "Ordinary work is Monday to Friday, 7:40 to 17:00.",
-        "Breaks are 10:00–10:30, 12:00–13:00, and 15:00–15:30.",
-        "On a weekday, overtime is any time before 7:40 and any time after 17:00.",
-        "On Saturday, Sunday, and public holidays, the whole shift is overtime, minus any of those break windows that fall inside it.",
-        "No break is assumed after 17:00.",
-        "If the start is morning assembly (朝礼), it is treated as the ordinary 7:40 start, so there is no early overtime. This assumption can be changed.",
-        "The year is 2026. Weekdays were checked against the calendar.",
-      ],
-      proofIntro: "Google Maps Timeline cannot be opened from this page. Google now stores Timeline on the phone. Export it with the steps below. If you have the file or screenshots of each day, they can be attached to the days in this report.",
-      android: "Android",
-      androidSteps: [
-        { title: "Open the Settings app", detail: "This is the phone Settings app, not Google Maps." },
-        { title: "Location → Location services → Timeline" },
-        { title: "Tap Export Timeline data" },
-        { title: "Tap Continue, choose a folder, and Save", detail: "When it finishes, the phone shows “Export complete.”" },
-      ],
-      androidFile: "The file is usually named Timeline.json.",
-      ios: "iPhone",
-      iosSteps: [
-        { title: "Open the Google Maps app" },
-        { title: "Tap your profile picture → Settings → Location & Privacy" },
-        { title: "Tap Export Timeline data" },
-        { title: "Tap Save to Files, choose a folder, and Save" },
-      ],
-      iosFile: "The file is saved as location-history.json. Another path is: profile → Your Timeline → ⋮ → Location & privacy settings → Export Timeline data.",
-      shots: "Screenshots",
-      shotsSteps: [
-        { title: "Open the Google Maps app" },
-        { title: "Tap your profile picture → Your Timeline" },
-        { title: "Tap the date at the top, then pick the day on the calendar" },
-        { title: "Take a screenshot", detail: "Please take one for each overtime day." },
-      ],
-      linkAndroid: "Official Android guide",
-      linkIos: "Official iPhone guide",
       foot: "Official records are in data.js.",
     },
   };
@@ -298,28 +220,6 @@
       .replace(/"/g, "&quot;");
   }
 
-  function stepsHtml(steps) {
-    return (
-      '<ol class="steps">' +
-      steps
-        .map(function (s) {
-          return (
-            "<li><span class=\"stitle\">" +
-            escapeHtml(s.title) +
-            "</span>" +
-            (s.detail ? '<span class="sdetail">' + escapeHtml(s.detail) + "</span>" : "") +
-            "</li>"
-          );
-        })
-        .join("") +
-      "</ol>"
-    );
-  }
-
-  function helpHl(lang) {
-    return lang === "ja" ? "ja" : "en";
-  }
-
   function render() {
     var lang = state.lang;
     var t = COPY[lang];
@@ -470,53 +370,6 @@
       "</div>" +
       dayCards +
       totalDl;
-
-    $("rules").innerHTML =
-      "<h2>" +
-      escapeHtml(t.rules) +
-      '</h2><div class="callout"><strong>' +
-      escapeHtml(t.assumeLead) +
-      "</strong>" +
-      escapeHtml(t.assume) +
-      "</div><ul>" +
-      t.rulesItems
-        .map(function (item) {
-          return "<li>" + escapeHtml(item) + "</li>";
-        })
-        .join("") +
-      "</ul>";
-
-    var hl = helpHl(lang);
-    $("proof").innerHTML =
-      "<h2>" +
-      escapeHtml(t.proof) +
-      "</h2><p>" +
-      escapeHtml(t.proofIntro) +
-      "</p><h3>" +
-      escapeHtml(t.android) +
-      "</h3>" +
-      stepsHtml(t.androidSteps) +
-      "<p>" +
-      escapeHtml(t.androidFile) +
-      "</p><h3>" +
-      escapeHtml(t.ios) +
-      "</h3>" +
-      stepsHtml(t.iosSteps) +
-      "<p>" +
-      escapeHtml(t.iosFile) +
-      "</p><h3>" +
-      escapeHtml(t.shots) +
-      "</h3>" +
-      stepsHtml(t.shotsSteps) +
-      '<div class="links"><a href="https://support.google.com/maps/answer/6258979?co=GENIE.Platform%3DAndroid&hl=' +
-      hl +
-      '" target="_blank" rel="noopener">' +
-      escapeHtml(t.linkAndroid) +
-      '</a><a href="https://support.google.com/maps/answer/6258979?co=GENIE.Platform%3DiOS&hl=' +
-      hl +
-      '" target="_blank" rel="noopener">' +
-      escapeHtml(t.linkIos) +
-      "</a></div>";
 
     $("foot").textContent = t.foot;
     bindDynamic();

@@ -106,10 +106,6 @@ h1 {
   font-size: 1.15rem;
 }
 
-.section h3 {
-  margin: 20px 0 8px;
-  font-size: 1rem;
-}
 
 .card {
   background: var(--paper);
@@ -258,69 +254,6 @@ h1 {
 }
 
 .month-total .grand { color: var(--accent-ink); font-size: 1.05rem; }
-
-.callout {
-  padding: 14px 16px;
-  background: var(--accent-soft);
-  border: 1px solid #cfe3da;
-  border-radius: var(--radius);
-  margin-bottom: 12px;
-}
-
-.callout strong { display: block; margin-bottom: 4px; color: var(--accent-ink); }
-
-ul, ol { margin: 0; padding-left: 1.2em; }
-li { margin: 0.35em 0; }
-
-.steps {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  counter-reset: step;
-}
-
-.steps li {
-  position: relative;
-  margin: 0;
-  padding: 12px 0 12px 44px;
-  border-bottom: 1px solid var(--line);
-}
-
-.steps li:last-child { border-bottom: 0; }
-
-.steps li::before {
-  counter-increment: step;
-  content: counter(step);
-  position: absolute;
-  left: 0;
-  top: 12px;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: var(--accent-soft);
-  color: var(--accent-ink);
-  font-size: 13px;
-  font-weight: 700;
-  display: grid;
-  place-items: center;
-}
-
-.steps .stitle { font-weight: 700; }
-.steps .sdetail { display: block; margin-top: 2px; color: var(--muted); font-size: 14px; }
-
-.links { display: grid; gap: 8px; margin-top: 12px; }
-
-.links a {
-  display: block;
-  padding: 12px 14px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  color: var(--accent-ink);
-  text-decoration: none;
-}
-
-.links a:hover { border-color: var(--accent); }
 
 .foot {
   padding: 8px 0 40px;
