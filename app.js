@@ -9,7 +9,7 @@
   var COPY = {
     ja: {
       title: "残業報告 2026",
-      eyebrow: "hanataha · 入善、富山",
+      eyebrow: "ハリ · 入善、富山",
       summary: "2026年10月と11月の残業です。各日の計算した残業時間を載せています。",
       totals: "合計",
       days: "日ごとの記録",
@@ -35,7 +35,7 @@
     },
     en: {
       title: "Overtime Report 2026",
-      eyebrow: "hanataha · Nyūzen, Toyama",
+      eyebrow: "ハリ · Nyūzen, Toyama",
       summary: "Overtime days in October and November 2026, with the calculated hours for each day.",
       totals: "Totals",
       days: "Each day",
